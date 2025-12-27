@@ -4,13 +4,18 @@ Brain tumors happen when cells grow out of control in or around the brain. Detec
 
 ## Model Architecture
 The proposed segmentation model is based on a 3D U-Net architecture, designed specifically for volumetric medical image analysis.
+
 <img width="1388" height="508" alt="image" src="https://github.com/user-attachments/assets/d74bb8b7-251e-458f-93a1-852fc4ace993" />
+
 ### Why 3D U-Net?
-**Capturing Spatial Context**
+- **Capturing Spatial Context**
 Unlike 2D models, 3D U-Net captures contextual information across all three spatial dimensions, which is critical for understanding tumour structure and continuity in MRI volumes.
-**Handling Volumetric Data**
+- **Handling Volumetric Data**
 MRI scans are inherently volumetric. The 3D convolutional operations preserve spatial coherence and reduce information loss during feature extraction.
-**Complexity of Brain Tumour Features**
+- **Complexity of Brain Tumour Features**
 Brain tumours vary in size, shape, and intensity.
 
+## Results and Performance
+
+<img width="1580" height="1980" alt="image" src="https://github.com/user-attachments/assets/3dc2f1d8-6e71-470f-ac14-888c1b3e6a27" />
 
