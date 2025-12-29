@@ -1,1 +1,27 @@
-..
+Dataset 1: BraTS 2020 Training & Validation Data
+This is the primary source dataset containing multimodal MRI scans of glioblastoma (GBM/HGG) and lower-grade glioma (LGG).
+Modalities: 
+-- T1: Native T1-weighted
+-- T1Gd: Post-contrast T1-weighted (Gadolinium-enhanced)
+-- T2: T2-weighted
+-- T2-FLAIR: T2 Fluid Attenuated Inversion Recovery
+Segmentation Labels:
+- Label 1: Necrotic and non-enhancing tumor core (NCR/NET)
+- Label 2: Peritumoral edema (ED)
+- Label 4: GD-enhancing tumor (ET)
+Link: https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation
+
+Dataset 2: brats20logs
+This dataset contains the logs and intermediate outputs from the model training process. It is organized into three specific directories:
+1. ae (Autoencoders): Contains weights and logs for Autoencoder models, often used for feature extraction or VAE-based regularization.
+2. data: Contains data split files (e.g., training/validation lists) and serialized metadata objects.
+3. unet: Contains the training history, loss curves, and epoch-wise checkpoints for 3D U-Net architectures.
+Link: https://www.kaggle.com/datasets/polomarco/brats20logs
+
+Dataset 3: BraTS 2020 Competition Data
+A secondary mirror of the official BraTS 2020 Competition dataset. It contains the identical NIfTI (.nii.gz) file structure as Dataset 1.
+Link: https://www.kaggle.com/datasets/awsaf49/brats2020-training-data
+
+Dataset 4: BraTS Serialized Models & Dataframes
+This dataset stores the finalized outputs of the research pipeline. It includes serialized model files and analytical dataframes.
+Link: https://www.kaggle.com/datasets/ramganeshlankada/brats-ser-models-and-dataframes
