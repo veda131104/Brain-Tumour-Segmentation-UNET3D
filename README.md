@@ -19,7 +19,15 @@ Brain tumours vary in size, shape, and intensity.
 
 The model was trained for 50 epochs on the BraTS 2020 dataset. The training process showed stable convergence with minimal gaps between training and validation metrics, indicating excellent generalization.
 
+| Metric | Training Value | Validation Value |
+| :--- | :--- | :--- |
+| Loss | 0.1592 | 0.1531 |
+| Dice Score| 0.8526 | 0.8585 |
+| Jaccard Score | 0.7502 | 0.7573 |
 
+## Overall Evaluation Metrics
+
+Final testing results across the dataset:
 
 | Metric     | Score (%) |
 |------------|-----------|
