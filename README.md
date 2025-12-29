@@ -17,9 +17,8 @@ Brain tumours vary in size, shape, and intensity.
 
 ## Results and Performance
 
-<img width="1580" height="1980" alt="image" src="https://github.com/user-attachments/assets/3dc2f1d8-6e71-470f-ac14-888c1b3e6a27" />
+The model was trained for 50 epochs on the BraTS 2020 dataset. The training process showed stable convergence with minimal gaps between training and validation metrics, indicating excellent generalization.
 
-The figure above illustrates the training and validation performance of the 3D U-Net model across multiple epochs. The loss curves show a steady decline for both training and validation phases, indicating stable convergence and effective learning. The close alignment between the two curves suggests minimal overfitting and good generalization to unseen data.
 
 
 | Metric     | Score (%) |
