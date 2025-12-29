@@ -1,6 +1,6 @@
 # Brain-Tumour-Segmentation-UNET3D
 ## Introduction
-Brain tumors happen when cells grow out of control in or around the brain. Detecting and accurately mapping these tumors is critical for diagnosis, treatment planning, and monitoring a patient’s recovery over time. Medical imaging, especially magnetic resonance imaging (MRI), plays a key role in identifying tumor location and structure, but manual analysis of MRI scans is time-consuming and depends heavily on expert interpretation. This project uses deep learning to automatically segment brain tumors from MRI scans. Specifically, a 3D U-Net–based deep learning architecture is trained on multimodal MRI data to identify and classify different tumor sub-regions.
+Brain tumours happen when cells grow out of control in or around the brain. Detecting and accurately mapping these tumours is critical for diagnosis, treatment planning, and monitoring a patient’s recovery over time. Medical imaging, especially magnetic resonance imaging (MRI), plays a key role in identifying tumor location and structure, but manual analysis of MRI scans is time-consuming and depends heavily on expert interpretation. This project uses deep learning to automatically segment brain tumors from MRI scans. Specifically, a 3D U-Net–based deep learning architecture is trained on multimodal MRI data to identify and classify different tumor sub-regions.
 
 ## Model Architecture
 The proposed segmentation model is based on a **3D U-Net architecture**, designed specifically for volumetric medical image analysis.
